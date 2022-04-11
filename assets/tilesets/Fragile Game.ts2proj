@@ -1,0 +1,944 @@
+<?xml version="1.0"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Fragile Game</Name>
+  <CustomData />
+  <Palettes>
+    <Palette>
+      <Name>Palette1</Name>
+      <CustomData />
+      <SelectedGradient>0</SelectedGradient>
+      <SelectedOffset>0</SelectedOffset>
+      <SelectedRange>0</SelectedRange>
+      <fSelectedOffset>0</fSelectedOffset>
+      <ID>1</ID>
+      <TotalGradients>12</TotalGradients>
+      <GradientSize>7</GradientSize>
+      <Columns>1</Columns>
+      <Entries>
+        <PaletteEntry>
+          <Name />
+          <CustomData />
+          <GradientIndex>0</GradientIndex>
+          <OffsetFromCenter>0</OffsetFromCenter>
+          <Color>FF808080</Color>
+          <DeltaRed>45</DeltaRed>
+          <DeltaGreen>45</DeltaGreen>
+          <DeltaBlue>45</DeltaBlue>
+          <DeltaAlpha>0</DeltaAlpha>
+        </PaletteEntry>
+        <PaletteEntry>
+          <Name />
+          <CustomData />
+          <GradientIndex>0</GradientIndex>
+          <OffsetFromCenter>0</OffsetFromCenter>
+          <Color>FF808080</Color>
+          <DeltaRed>45</DeltaRed>
+          <DeltaGreen>45</DeltaGreen>
+          <DeltaBlue>45</DeltaBlue>
+          <DeltaAlpha>0</DeltaAlpha>
+        </PaletteEntry>
+        <PaletteEntry>
+          <Name />
+          <CustomData />
+          <GradientIndex>1</GradientIndex>
+          <OffsetFromCenter>0</OffsetFromCenter>
+          <Color>FFD16868</Color>
+          <DeltaRed>45</DeltaRed>
+          <DeltaGreen>45</DeltaGreen>
+          <DeltaBlue>45</DeltaBlue>
+          <DeltaAlpha>0</DeltaAlpha>
+        </PaletteEntry>
+        <PaletteEntry>
+          <Name />
+          <CustomData />
+          <GradientIndex>2</GradientIndex>
+          <OffsetFromCenter>0</OffsetFromCenter>
+          <Color>FFD1AE68</Color>
+          <DeltaRed>45</DeltaRed>
+          <DeltaGreen>45</DeltaGreen>
+          <DeltaBlue>45</DeltaBlue>
+          <DeltaAlpha>0</DeltaAlpha>
+        </PaletteEntry>
+        <PaletteEntry>
+          <Name />
+          <CustomData />
+          <GradientIndex>3</GradientIndex>
+          <OffsetFromCenter>0</OffsetFromCenter>
+          <Color>FFAED168</Color>
+          <DeltaRed>45</DeltaRed>
+          <DeltaGreen>45</DeltaGreen>
+          <DeltaBlue>45</DeltaBlue>
+          <DeltaAlpha>0</DeltaAlpha>
+        </PaletteEntry>
+        <PaletteEntry>
+          <Name />
+          <CustomData />
+          <GradientIndex>4</GradientIndex>
+          <OffsetFromCenter>0</OffsetFromCenter>
+          <Color>FF68D168</Color>
+          <DeltaRed>45</DeltaRed>
+          <DeltaGreen>45</DeltaGreen>
+          <DeltaBlue>45</DeltaBlue>
+          <DeltaAlpha>0</DeltaAlpha>
+        </PaletteEntry>
+        <PaletteEntry>
+          <Name />
+          <CustomData />
+          <GradientIndex>5</GradientIndex>
+          <OffsetFromCenter>0</OffsetFromCenter>
+          <Color>FF68D1AE</Color>
+          <DeltaRed>45</DeltaRed>
+          <DeltaGreen>45</DeltaGreen>
+          <DeltaBlue>45</DeltaBlue>
+          <DeltaAlpha>0</DeltaAlpha>
+        </PaletteEntry>
+        <PaletteEntry>
+          <Name />
+          <CustomData />
+          <GradientIndex>6</GradientIndex>
+          <OffsetFromCenter>0</OffsetFromCenter>
+          <Color>FF68AED1</Color>
+          <DeltaRed>45</DeltaRed>
+          <DeltaGreen>45</DeltaGreen>
+          <DeltaBlue>45</DeltaBlue>
+          <DeltaAlpha>0</DeltaAlpha>
+        </PaletteEntry>
+        <PaletteEntry>
+          <Name />
+          <CustomData />
+          <GradientIndex>7</GradientIndex>
+          <OffsetFromCenter>0</OffsetFromCenter>
+          <Color>FF6868D1</Color>
+          <DeltaRed>45</DeltaRed>
+          <DeltaGreen>45</DeltaGreen>
+          <DeltaBlue>45</DeltaBlue>
+          <DeltaAlpha>0</DeltaAlpha>
+        </PaletteEntry>
+        <PaletteEntry>
+          <Name />
+          <CustomData />
+          <GradientIndex>8</GradientIndex>
+          <OffsetFromCenter>0</OffsetFromCenter>
+          <Color>FFAE68D1</Color>
+          <DeltaRed>45</DeltaRed>
+          <DeltaGreen>45</DeltaGreen>
+          <DeltaBlue>45</DeltaBlue>
+          <DeltaAlpha>0</DeltaAlpha>
+        </PaletteEntry>
+        <PaletteEntry>
+          <Name />
+          <CustomData />
+          <GradientIndex>9</GradientIndex>
+          <OffsetFromCenter>0</OffsetFromCenter>
+          <Color>FFD168AE</Color>
+          <DeltaRed>45</DeltaRed>
+          <DeltaGreen>45</DeltaGreen>
+          <DeltaBlue>45</DeltaBlue>
+          <DeltaAlpha>0</DeltaAlpha>
+        </PaletteEntry>
+      </Entries>
+    </Palette>
+  </Palettes>
+  <TiledBitmaps>
+    <TiledBitmap>
+      <Name>Bitmap1</Name>
+      <CustomData />
+      <ID>2</ID>
+      <Width>64</Width>
+      <Height>64</Height>
+      <TileW>16</TileW>
+      <TileH>16</TileH>
+      <Buffer>
+        <Name />
+        <CustomData />
+        <Mode>Indexed</Mode>
+        <horizontalSymmetry>false</horizontalSymmetry>
+        <verticalSymmetry>false</verticalSymmetry>
+        <horizontalSymmetryPosition>0</horizontalSymmetryPosition>
+        <verticalSymmetryPosition>0</verticalSymmetryPosition>
+        <image>iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD6SURBVHhe7ZfhCsIwEIP75oovrttYRifHvBYltnwfZAx6Kbn4Z5aNR3l2SURnGYnoLCMRnWV0Mt933T5Ic/VFI/sPczR8pfqSkf32AG7/9ogGMlKA6Cyjf/DbA7j99gBuvz2A228P4PbbA7j99gBuvz2A2789nB8ibr89gNt/uiRzkebkq/3RfKRf+TN3aE6+0z/CVon1vSeA+Ia/RwfRYUZToGV6foEpStDy0bJXUgnDQwHVUq2igEXDQwFvS7WIAhYNDwW8LdUiClg0POsSfAnuS7VoqgJaS9DyUxSwogIyJWhumuUBAAAAAAAAAAAAAAAAAABgbkp5AetXXADluBt3AAAAAElFTkSuQmCC</image>
+      </Buffer>
+      <CursorRect>
+        <Location>
+          <X>0</X>
+          <Y>16</Y>
+        </Location>
+        <Size>
+          <Width>16</Width>
+          <Height>16</Height>
+        </Size>
+        <X>0</X>
+        <Y>16</Y>
+        <Width>16</Width>
+        <Height>16</Height>
+      </CursorRect>
+      <OnePatternPerTile>false</OnePatternPerTile>
+      <Animations />
+      <ColorKey />
+    </TiledBitmap>
+  </TiledBitmaps>
+  <Tilesheets>
+    <Tilesheet>
+      <Name>Tilesheet1</Name>
+      <CustomData />
+      <ID>3</ID>
+      <aaTile>
+        <Tile>
+          <Width>16</Width>
+          <Height>16</Height>
+          <aTileTransform>
+            <TileTransform>
+              <Name />
+              <CustomData />
+              <Buffer>
+                <Name />
+                <CustomData />
+                <Mode>Indexed</Mode>
+                <horizontalSymmetry>false</horizontalSymmetry>
+                <verticalSymmetry>false</verticalSymmetry>
+                <horizontalSymmetryPosition>0</horizontalSymmetryPosition>
+                <verticalSymmetryPosition>0</verticalSymmetryPosition>
+                <image>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABCSURBVDhPYwCDJob/ZGEUzQ1QXE8Aw9TBDYFpxqYYH4YZQh0DsCkgBo8aMLwMGPiUCDOEGINg6mD6UHIkqZiBgQEAVZJ43Eae/7kAAAAASUVORK5CYII=</image>
+              </Buffer>
+              <TiledBitmap>Bitmap1</TiledBitmap>
+              <SourceRect>
+                <Location>
+                  <X>0</X>
+                  <Y>0</Y>
+                </Location>
+                <Size>
+                  <Width>16</Width>
+                  <Height>16</Height>
+                </Size>
+                <X>0</X>
+                <Y>0</Y>
+                <Width>16</Width>
+                <Height>16</Height>
+              </SourceRect>
+              <LastCursorRect>
+                <Location>
+                  <X>0</X>
+                  <Y>0</Y>
+                </Location>
+                <Size>
+                  <Width>16</Width>
+                  <Height>16</Height>
+                </Size>
+                <X>0</X>
+                <Y>0</Y>
+                <Width>16</Width>
+                <Height>16</Height>
+              </LastCursorRect>
+              <Palette>Palette1</Palette>
+              <OnePatternPerTile>true</OnePatternPerTile>
+              <GradientIndex>0</GradientIndex>
+              <Offset>0</Offset>
+              <FlipHorizontal>false</FlipHorizontal>
+              <FlipVertical>true</FlipVertical>
+              <RotateRight>false</RotateRight>
+              <Inverted>false</Inverted>
+              <Alpha>1</Alpha>
+              <Contrast>1</Contrast>
+              <Precision>0</Precision>
+              <BlendMode>Normal</BlendMode>
+              <AlphaMode>Normal</AlphaMode>
+              <GroupWithNext>false</GroupWithNext>
+              <LowCut>-10000</LowCut>
+              <HighCut>10000</HighCut>
+              <PaletteGradientShiftFactor>1</PaletteGradientShiftFactor>
+              <PaletteOffsetShiftFactor>1</PaletteOffsetShiftFactor>
+              <ColorTransform>
+                <Name>ColorTransform</Name>
+                <CustomData />
+                <MultiplyRed>1</MultiplyRed>
+                <MultiplyGreen>1</MultiplyGreen>
+                <MultiplyBlue>1</MultiplyBlue>
+                <MultiplyAlpha>1</MultiplyAlpha>
+                <AddRed>0</AddRed>
+                <AddGreen>0</AddGreen>
+                <AddBlue>0</AddBlue>
+                <AddAlpha>0</AddAlpha>
+              </ColorTransform>
+              <Code />
+              <GroupSize>
+                <Width>1</Width>
+                <Height>1</Height>
+              </GroupSize>
+              <GroupPos>
+                <X>0</X>
+                <Y>0</Y>
+              </GroupPos>
+              <RandomSeed>0</RandomSeed>
+            </TileTransform>
+          </aTileTransform>
+          <SourceTile>
+            <X>0</X>
+            <Y>0</Y>
+          </SourceTile>
+          <SourceSelection>
+            <Location>
+              <X>0</X>
+              <Y>0</Y>
+            </Location>
+            <Size>
+              <Width>0</Width>
+              <Height>0</Height>
+            </Size>
+            <X>0</X>
+            <Y>0</Y>
+            <Width>0</Width>
+            <Height>0</Height>
+          </SourceSelection>
+        </Tile>
+        <Tile>
+          <Width>16</Width>
+          <Height>16</Height>
+          <aTileTransform>
+            <TileTransform>
+              <Name />
+              <CustomData />
+              <Buffer>
+                <Name />
+                <CustomData />
+                <Mode>Indexed</Mode>
+                <horizontalSymmetry>false</horizontalSymmetry>
+                <verticalSymmetry>false</verticalSymmetry>
+                <horizontalSymmetryPosition>0</horizontalSymmetryPosition>
+                <verticalSymmetryPosition>0</verticalSymmetryPosition>
+                <image>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABCSURBVDhPYwCDJob/ZGEUzQ1QXE8Aw9TBDYFpxqYYH4YZQh0DsCkgBo8aMLwMGPiUCDOEGINg6mD6UHIkqZiBgQEAVZJ43Eae/7kAAAAASUVORK5CYII=</image>
+              </Buffer>
+              <TiledBitmap>Bitmap1</TiledBitmap>
+              <SourceRect>
+                <Location>
+                  <X>0</X>
+                  <Y>0</Y>
+                </Location>
+                <Size>
+                  <Width>16</Width>
+                  <Height>16</Height>
+                </Size>
+                <X>0</X>
+                <Y>0</Y>
+                <Width>16</Width>
+                <Height>16</Height>
+              </SourceRect>
+              <LastCursorRect>
+                <Location>
+                  <X>0</X>
+                  <Y>0</Y>
+                </Location>
+                <Size>
+                  <Width>16</Width>
+                  <Height>16</Height>
+                </Size>
+                <X>0</X>
+                <Y>0</Y>
+                <Width>16</Width>
+                <Height>16</Height>
+              </LastCursorRect>
+              <Palette>Palette1</Palette>
+              <OnePatternPerTile>true</OnePatternPerTile>
+              <GradientIndex>0</GradientIndex>
+              <Offset>0</Offset>
+              <FlipHorizontal>false</FlipHorizontal>
+              <FlipVertical>true</FlipVertical>
+              <RotateRight>false</RotateRight>
+              <Inverted>false</Inverted>
+              <Alpha>1</Alpha>
+              <Contrast>1</Contrast>
+              <Precision>0</Precision>
+              <BlendMode>Normal</BlendMode>
+              <AlphaMode>Normal</AlphaMode>
+              <GroupWithNext>false</GroupWithNext>
+              <LowCut>-10000</LowCut>
+              <HighCut>10000</HighCut>
+              <PaletteGradientShiftFactor>1</PaletteGradientShiftFactor>
+              <PaletteOffsetShiftFactor>1</PaletteOffsetShiftFactor>
+              <ColorTransform>
+                <Name>ColorTransform</Name>
+                <CustomData />
+                <MultiplyRed>1</MultiplyRed>
+                <MultiplyGreen>1</MultiplyGreen>
+                <MultiplyBlue>1</MultiplyBlue>
+                <MultiplyAlpha>1</MultiplyAlpha>
+                <AddRed>0</AddRed>
+                <AddGreen>0</AddGreen>
+                <AddBlue>0</AddBlue>
+                <AddAlpha>0</AddAlpha>
+              </ColorTransform>
+              <Code />
+              <GroupSize>
+                <Width>1</Width>
+                <Height>1</Height>
+              </GroupSize>
+              <GroupPos>
+                <X>0</X>
+                <Y>0</Y>
+              </GroupPos>
+              <RandomSeed>0</RandomSeed>
+            </TileTransform>
+          </aTileTransform>
+          <SourceTile>
+            <X>0</X>
+            <Y>0</Y>
+          </SourceTile>
+          <SourceSelection>
+            <Location>
+              <X>0</X>
+              <Y>0</Y>
+            </Location>
+            <Size>
+              <Width>0</Width>
+              <Height>0</Height>
+            </Size>
+            <X>0</X>
+            <Y>0</Y>
+            <Width>0</Width>
+            <Height>0</Height>
+          </SourceSelection>
+        </Tile>
+        <Tile>
+          <Width>16</Width>
+          <Height>16</Height>
+          <aTileTransform>
+            <TileTransform>
+              <Name />
+              <CustomData />
+              <Buffer>
+                <Name />
+                <CustomData />
+                <Mode>Indexed</Mode>
+                <horizontalSymmetry>false</horizontalSymmetry>
+                <verticalSymmetry>false</verticalSymmetry>
+                <horizontalSymmetryPosition>0</horizontalSymmetryPosition>
+                <verticalSymmetryPosition>0</verticalSymmetryPosition>
+                <image>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABCSURBVDhPYwCDJob/ZGEUzQ1QXE8Aw9TBDYFpxqYYH4YZQh0DsCkgBo8aMLwMGPiUCDOEGINg6mD6UHIkqZiBgQEAVZJ43Eae/7kAAAAASUVORK5CYII=</image>
+              </Buffer>
+              <TiledBitmap>Bitmap1</TiledBitmap>
+              <SourceRect>
+                <Location>
+                  <X>0</X>
+                  <Y>0</Y>
+                </Location>
+                <Size>
+                  <Width>16</Width>
+                  <Height>16</Height>
+                </Size>
+                <X>0</X>
+                <Y>0</Y>
+                <Width>16</Width>
+                <Height>16</Height>
+              </SourceRect>
+              <LastCursorRect>
+                <Location>
+                  <X>0</X>
+                  <Y>0</Y>
+                </Location>
+                <Size>
+                  <Width>16</Width>
+                  <Height>16</Height>
+                </Size>
+                <X>0</X>
+                <Y>0</Y>
+                <Width>16</Width>
+                <Height>16</Height>
+              </LastCursorRect>
+              <Palette>Palette1</Palette>
+              <OnePatternPerTile>true</OnePatternPerTile>
+              <GradientIndex>0</GradientIndex>
+              <Offset>0</Offset>
+              <FlipHorizontal>false</FlipHorizontal>
+              <FlipVertical>true</FlipVertical>
+              <RotateRight>false</RotateRight>
+              <Inverted>false</Inverted>
+              <Alpha>1</Alpha>
+              <Contrast>1</Contrast>
+              <Precision>0</Precision>
+              <BlendMode>Normal</BlendMode>
+              <AlphaMode>Normal</AlphaMode>
+              <GroupWithNext>false</GroupWithNext>
+              <LowCut>-10000</LowCut>
+              <HighCut>10000</HighCut>
+              <PaletteGradientShiftFactor>1</PaletteGradientShiftFactor>
+              <PaletteOffsetShiftFactor>1</PaletteOffsetShiftFactor>
+              <ColorTransform>
+                <Name>ColorTransform</Name>
+                <CustomData />
+                <MultiplyRed>1</MultiplyRed>
+                <MultiplyGreen>1</MultiplyGreen>
+                <MultiplyBlue>1</MultiplyBlue>
+                <MultiplyAlpha>1</MultiplyAlpha>
+                <AddRed>0</AddRed>
+                <AddGreen>0</AddGreen>
+                <AddBlue>0</AddBlue>
+                <AddAlpha>0</AddAlpha>
+              </ColorTransform>
+              <Code />
+              <GroupSize>
+                <Width>1</Width>
+                <Height>1</Height>
+              </GroupSize>
+              <GroupPos>
+                <X>0</X>
+                <Y>0</Y>
+              </GroupPos>
+              <RandomSeed>0</RandomSeed>
+            </TileTransform>
+          </aTileTransform>
+          <SourceTile>
+            <X>0</X>
+            <Y>0</Y>
+          </SourceTile>
+          <SourceSelection>
+            <Location>
+              <X>0</X>
+              <Y>0</Y>
+            </Location>
+            <Size>
+              <Width>0</Width>
+              <Height>0</Height>
+            </Size>
+            <X>0</X>
+            <Y>0</Y>
+            <Width>0</Width>
+            <Height>0</Height>
+          </SourceSelection>
+        </Tile>
+        <Tile>
+          <Width>16</Width>
+          <Height>16</Height>
+          <aTileTransform>
+            <TileTransform>
+              <Name />
+              <CustomData />
+              <Buffer>
+                <Name />
+                <CustomData />
+                <Mode>Indexed</Mode>
+                <horizontalSymmetry>false</horizontalSymmetry>
+                <verticalSymmetry>false</verticalSymmetry>
+                <horizontalSymmetryPosition>0</horizontalSymmetryPosition>
+                <verticalSymmetryPosition>0</verticalSymmetryPosition>
+                <image>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABCSURBVDhPYwCDJob/ZGEUzQ1QXE8Aw9TBDYFpxqYYH4YZQh0DsCkgBo8aMLwMGPiUCDOEGINg6mD6UHIkqZiBgQEAVZJ43Eae/7kAAAAASUVORK5CYII=</image>
+              </Buffer>
+              <TiledBitmap>Bitmap1</TiledBitmap>
+              <SourceRect>
+                <Location>
+                  <X>0</X>
+                  <Y>0</Y>
+                </Location>
+                <Size>
+                  <Width>16</Width>
+                  <Height>16</Height>
+                </Size>
+                <X>0</X>
+                <Y>0</Y>
+                <Width>16</Width>
+                <Height>16</Height>
+              </SourceRect>
+              <LastCursorRect>
+                <Location>
+                  <X>0</X>
+                  <Y>0</Y>
+                </Location>
+                <Size>
+                  <Width>16</Width>
+                  <Height>16</Height>
+                </Size>
+                <X>0</X>
+                <Y>0</Y>
+                <Width>16</Width>
+                <Height>16</Height>
+              </LastCursorRect>
+              <Palette>Palette1</Palette>
+              <OnePatternPerTile>true</OnePatternPerTile>
+              <GradientIndex>0</GradientIndex>
+              <Offset>0</Offset>
+              <FlipHorizontal>false</FlipHorizontal>
+              <FlipVertical>true</FlipVertical>
+              <RotateRight>false</RotateRight>
+              <Inverted>false</Inverted>
+              <Alpha>1</Alpha>
+              <Contrast>1</Contrast>
+              <Precision>0</Precision>
+              <BlendMode>Normal</BlendMode>
+              <AlphaMode>Normal</AlphaMode>
+              <GroupWithNext>false</GroupWithNext>
+              <LowCut>-10000</LowCut>
+              <HighCut>10000</HighCut>
+              <PaletteGradientShiftFactor>1</PaletteGradientShiftFactor>
+              <PaletteOffsetShiftFactor>1</PaletteOffsetShiftFactor>
+              <ColorTransform>
+                <Name>ColorTransform</Name>
+                <CustomData />
+                <MultiplyRed>1</MultiplyRed>
+                <MultiplyGreen>1</MultiplyGreen>
+                <MultiplyBlue>1</MultiplyBlue>
+                <MultiplyAlpha>1</MultiplyAlpha>
+                <AddRed>0</AddRed>
+                <AddGreen>0</AddGreen>
+                <AddBlue>0</AddBlue>
+                <AddAlpha>0</AddAlpha>
+              </ColorTransform>
+              <Code />
+              <GroupSize>
+                <Width>1</Width>
+                <Height>1</Height>
+              </GroupSize>
+              <GroupPos>
+                <X>0</X>
+                <Y>0</Y>
+              </GroupPos>
+              <RandomSeed>0</RandomSeed>
+            </TileTransform>
+          </aTileTransform>
+          <SourceTile>
+            <X>0</X>
+            <Y>0</Y>
+          </SourceTile>
+          <SourceSelection>
+            <Location>
+              <X>0</X>
+              <Y>0</Y>
+            </Location>
+            <Size>
+              <Width>0</Width>
+              <Height>0</Height>
+            </Size>
+            <X>0</X>
+            <Y>0</Y>
+            <Width>0</Width>
+            <Height>0</Height>
+          </SourceSelection>
+        </Tile>
+        <Tile>
+          <Width>16</Width>
+          <Height>16</Height>
+          <aTileTransform>
+            <TileTransform>
+              <Name />
+              <CustomData />
+              <TiledBitmap>Bitmap1</TiledBitmap>
+              <SourceRect>
+                <Location>
+                  <X>0</X>
+                  <Y>0</Y>
+                </Location>
+                <Size>
+                  <Width>16</Width>
+                  <Height>16</Height>
+                </Size>
+                <X>0</X>
+                <Y>0</Y>
+                <Width>16</Width>
+                <Height>16</Height>
+              </SourceRect>
+              <LastCursorRect>
+                <Location>
+                  <X>0</X>
+                  <Y>0</Y>
+                </Location>
+                <Size>
+                  <Width>16</Width>
+                  <Height>16</Height>
+                </Size>
+                <X>0</X>
+                <Y>0</Y>
+                <Width>16</Width>
+                <Height>16</Height>
+              </LastCursorRect>
+              <Palette>Palette1</Palette>
+              <OnePatternPerTile>true</OnePatternPerTile>
+              <GradientIndex>0</GradientIndex>
+              <Offset>0</Offset>
+              <FlipHorizontal>false</FlipHorizontal>
+              <FlipVertical>true</FlipVertical>
+              <RotateRight>false</RotateRight>
+              <Inverted>false</Inverted>
+              <Alpha>1</Alpha>
+              <Contrast>1</Contrast>
+              <Precision>0</Precision>
+              <BlendMode>Normal</BlendMode>
+              <AlphaMode>Normal</AlphaMode>
+              <GroupWithNext>false</GroupWithNext>
+              <LowCut>-10000</LowCut>
+              <HighCut>10000</HighCut>
+              <PaletteGradientShiftFactor>1</PaletteGradientShiftFactor>
+              <PaletteOffsetShiftFactor>1</PaletteOffsetShiftFactor>
+              <ColorTransform>
+                <Name>ColorTransform</Name>
+                <CustomData />
+                <MultiplyRed>1</MultiplyRed>
+                <MultiplyGreen>1</MultiplyGreen>
+                <MultiplyBlue>1</MultiplyBlue>
+                <MultiplyAlpha>1</MultiplyAlpha>
+                <AddRed>0</AddRed>
+                <AddGreen>0</AddGreen>
+                <AddBlue>0</AddBlue>
+                <AddAlpha>0</AddAlpha>
+              </ColorTransform>
+              <Code />
+              <GroupSize>
+                <Width>1</Width>
+                <Height>1</Height>
+              </GroupSize>
+              <GroupPos>
+                <X>0</X>
+                <Y>0</Y>
+              </GroupPos>
+              <RandomSeed>0</RandomSeed>
+            </TileTransform>
+          </aTileTransform>
+          <SourceTile>
+            <X>0</X>
+            <Y>0</Y>
+          </SourceTile>
+          <SourceSelection>
+            <Location>
+              <X>0</X>
+              <Y>0</Y>
+            </Location>
+            <Size>
+              <Width>0</Width>
+              <Height>0</Height>
+            </Size>
+            <X>0</X>
+            <Y>0</Y>
+            <Width>0</Width>
+            <Height>0</Height>
+          </SourceSelection>
+        </Tile>
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+        <Tile xsi:nil="true" />
+      </aaTile>
+      <Width>20</Width>
+      <Height>10</Height>
+      <TileW>16</TileW>
+      <TileH>16</TileH>
+      <MapTileMultiplierX>1</MapTileMultiplierX>
+      <MapTileMultiplierY>1</MapTileMultiplierY>
+      <CursorRect>
+        <Location>
+          <X>64</X>
+          <Y>0</Y>
+        </Location>
+        <Size>
+          <Width>16</Width>
+          <Height>16</Height>
+        </Size>
+        <X>64</X>
+        <Y>0</Y>
+        <Width>16</Width>
+        <Height>16</Height>
+      </CursorRect>
+      <TextureGroup>Tilesheet1</TextureGroup>
+      <Optimize>true</Optimize>
+      <SkipForExport>false</SkipForExport>
+    </Tilesheet>
+  </Tilesheets>
+  <Maps />
+  <ObjectTypes />
+  <Scripts />
+  <Configurations />
+  <Settings>
+    <Name />
+    <CustomData />
+    <Configuration />
+    <BackgroundColor />
+  </Settings>
+  <DefaultTileW>16</DefaultTileW>
+  <DefaultTileH>16</DefaultTileH>
+</Project>
