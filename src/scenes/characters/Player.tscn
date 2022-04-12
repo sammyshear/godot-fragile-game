@@ -6,16 +6,15 @@
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 5, 4 )
 
-[node name="Player" type="KinematicBody2D"]
+[node name="Player" type="KinematicBody2D" groups=["Player"]]
 scale = Vector2( 2, 2 )
 script = ExtResource( 2 )
-frames = ExtResource( 1 )
 
-[node name="Pivot" type="Position2D" parent="."]
+[node name="Pivot" type="Position2D" parent="." groups=["Player"]]
 
-[node name="Body" type="AnimatedSprite" parent="Pivot"]
+[node name="Body" type="AnimatedSprite" parent="Pivot" groups=["Player"]]
 position = Vector2( 0, -4 )
 frames = ExtResource( 1 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["Player"]]
 shape = SubResource( 1 )

@@ -47,11 +47,10 @@ namespace FragileGame.Player
                 }
             }
 
-            if (IsOnFloor() && nextMove.y >= 1700)
-            {
-                NextFrame();
-            }
-            else if (IsOnWall() && (nextMove.x >= 1000 || nextMove.x <= -1000))
+            if (
+                IsOnFloor() && nextMove.y >= 1700
+                || IsOnWall() && (nextMove.x >= 1200 || nextMove.x <= -1200)
+            )
             {
                 NextFrame();
             }
@@ -71,6 +70,10 @@ namespace FragileGame.Player
             {
                 velocity.x = 0;
             }
+            if (Input.IsActionPressed("restart"))
+            {
+                Die();
+            }
         }
 
         public void NextFrame()
@@ -85,7 +88,7 @@ namespace FragileGame.Player
 
         private void Die()
         {
-            GetTree().ChangeScene("res://src/scenes/GameOver.tscn");
+            GetTree().ReloadCurrentScene();
         }
     }
 }

@@ -1,12 +1,29 @@
-[gd_scene format=2]
+[gd_scene load_steps=3 format=2]
 
-[node name="GameOver" type="Control"]
-anchor_right = 1.0
-anchor_bottom = 1.0
+[ext_resource path="res://src/scenes/characters/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://assets/tilesets/base_tileset.tres" type="TileSet" id=2]
+
+[node name="GameOver" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 300, 479 )
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+current = true
+zoom = Vector2( 1.25, 1.25 )
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 32, 32 )
+format = 1
+tile_data = PoolIntArray( 1, 0, 0, 2, 0, 196614, 3, 0, 262145, 4, 0, 262145, 5, 0, 262145, 6, 0, 262145, 7, 0, 262145, 8, 0, 262145, 9, 0, 262145, 10, 0, 262145, 11, 0, 262145, 12, 0, 262145, 13, 0, 262145, 14, 0, 262145, 15, 0, 262145, 16, 0, 262145, 17, 0, 196624, 65537, 0, 65536, 65538, 0, 65538, 65553, 0, 65540, 131073, 0, 65536, 131074, 0, 65538, 131089, 0, 65540, 196609, 0, 196617, 196610, 0, 131074, 196625, 0, 65540, 262145, 0, 65540, 262161, 0, 65540, 327681, 0, 65540, 327697, 0, 65540, 393217, 0, 65540, 393233, 0, 65540, 458753, 0, 65540, 458769, 0, 65540, 524289, 0, 65540, 524305, 0, 65540, 589825, 0, 65540, 589841, 0, 65540, 655361, 0, 65540, 655377, 0, 65540, 720896, 0, 196623, 720897, 0, 262160, 720912, 0, 196623, 720913, 0, 262160, 786432, 0, 65540, 786448, 0, 65540, 851968, 0, 262159, 851969, 0, 196624, 851984, 0, 65540, 917505, 0, 262159, 917506, 0, 196624, 917519, 0, 196623, 917520, 0, 262160, 983042, 0, 262159, 983043, 0, 196624, 983055, 0, 65540, 1048579, 0, 262159, 1048580, 0, 262145, 1048581, 0, 262145, 1048582, 0, 262145, 1048583, 0, 196615, 1048584, 0, 1, 1048585, 0, 1, 1048586, 0, 1, 1048587, 0, 1, 1048588, 0, 196614, 1048589, 0, 262145, 1048590, 0, 262145, 1048591, 0, 262160, 1114119, 0, 131072, 1114120, 0, 131073, 1114121, 0, 131073, 1114122, 0, 131073, 1114123, 0, 131073, 1114124, 0, 131074 )
 
 [node name="Label" type="Label" parent="."]
-anchor_right = 1.0
-anchor_bottom = 1.0
-text = "Game Over"
+margin_left = 74.0
+margin_top = 70.0
+margin_right = 497.0
+margin_bottom = 742.0
+text = "I hope you at least had some fun. This was mostly just a way for me to practice Godot a little bit."
 align = 1
 valign = 1
+autowrap = true
